@@ -1,0 +1,10 @@
+
+.grid-places{ background-color: red; }
+.grid-places>.item{ background-color: green; width: 280px; height: 80px; }
+.grid-places>.item>.item-clickeable{  }
+.grid-places>.item>.item-clickeable>.description{ display: inline;  }
+.grid-places>.item>.item-clickeable>.description>.title{  }
+.grid-places>.item>.item-clickeable>.description>.description{  }
+.grid-places>.item>.item-clickeable>.image{ display: inline; }
+.grid-places>.item>.item-clickeable>.image>img{  }
+
