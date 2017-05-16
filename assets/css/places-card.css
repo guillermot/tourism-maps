@@ -1,10 +1,44 @@
+.grid-places {
+    /*background-color: red;*/
+}
 
-.grid-places{ background-color: red; }
-.grid-places>.item{ background-color: green; width: 280px; height: 80px; }
-.grid-places>.item>.item-clickeable{  }
-.grid-places>.item>.item-clickeable>.description{ display: inline; font-size: 13px;   }
-.grid-places>.item>.item-clickeable>.description>.title{  }
-.grid-places>.item>.item-clickeable>.description>.description{  }
-.grid-places>.item>.item-clickeable>.image{ display: inline; }
-.grid-places>.item>.item-clickeable>.image>img{  }
+.grid-places>.item {
+    /*background-color: green;*/
+    display: block;
+    width: 280px;
+    height: 80px;
+    margin-bottom: 4px;
+}
 
+.grid-places>.item>.item-clickeable {
+    text-decoration: none;
+    display: block;
+    /*color: black;*/
+}
+
+.grid-places>.item>.item-clickeable>.description {
+    display: block;
+    /*background-color: aqua;*/
+    height: 80px;
+    margin-left: 80px;
+    padding-left: 5px;
+}
+
+.grid-places>.item>.item-clickeable>.description>.title {
+    font-size: 14px;
+    /*background-color: blueviolet;*/
+}
+
+.grid-places>.item>.item-clickeable>.description>.description {
+    font-color: #757575;
+    font-size: 13px;
+    /*background-color: coral;*/
+    margin-bottom: 0px;
+}
+
+.grid-places>.item>.item-clickeable>.image {
+    position: absolute;
+    width: 80px;
+}
+
+.grid-places>.item>.item-clickeable>.image>img {}
