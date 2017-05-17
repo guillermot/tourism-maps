@@ -1,4 +1,7 @@
 <template id="place-card">
+    <style>
+
+    </style>
     <div class="item">
         <a href="#" class="item-clickeable">
             <div class="image">
@@ -11,3 +14,14 @@
         </a>
     </div>
 </template>
+
+<script>
+    const placeCard = document.registerElement('place-card', {
+        prototype: Object.create(HTMLElement.prototype, {
+            createCallback: {
+                
+            }
+        })
+    });
+
+</script>

@@ -1,9 +1,7 @@
 .grid-places {
-    /*background-color: red;*/
 }
 
 .grid-places>.item {
-    /*background-color: green;*/
     display: block;
     width: 280px;
     height: 80px;
@@ -13,32 +11,32 @@
 .grid-places>.item>.item-clickeable {
     text-decoration: none;
     display: block;
-    /*color: black;*/
+    cursor: pointer;
 }
 
-.grid-places>.item>.item-clickeable>.description {
+.grid-places>.item>.item-clickeable>.description-container {
     display: block;
-    /*background-color: aqua;*/
     height: 80px;
     margin-left: 80px;
     padding-left: 5px;
 }
 
-.grid-places>.item>.item-clickeable>.description>.title {
+.grid-places>.item>.item-clickeable>.description-container>.title {
     font-size: 14px;
-    /*background-color: blueviolet;*/
 }
 
-.grid-places>.item>.item-clickeable>.description>.description {
+.grid-places>.item>.item-clickeable>.description-container>.description {
     font-color: #757575;
     font-size: 13px;
-    /*background-color: coral;*/
     margin-bottom: 0px;
 }
 
-.grid-places>.item>.item-clickeable>.image {
+.grid-places>.item>.item-clickeable>.image-container {
     position: absolute;
     width: 80px;
 }
 
-.grid-places>.item>.item-clickeable>.image>img {}
+.grid-places>.item>.item-clickeable>.image-container>img {
+    width: 80px;
+    height: 80px;s
+}
