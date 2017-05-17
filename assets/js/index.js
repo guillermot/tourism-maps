@@ -42,10 +42,11 @@ var loadPlaces = function () {
         image.setAttribute('src', place.img);
 
         // Adding marker
-        // var marker = new google.maps.Marker({
-        //   position: uluru,
-        //   map: map
-        // });
+        var marker = new google.maps.Marker({
+          position: {lat: place.lat, lng: place.lng},
+          map: map,
+          title: place.title
+        });
 
     });
 
@@ -54,6 +55,7 @@ var loadPlaces = function () {
     items.forEach(item => {
         item.addEventListener('mouseover', event => {
             // console.log(event.fromElement);
+            event.stopPropagation(); 
             console.log(event.relatedTarget);
             var e = event.fromElement || event.relatedTarget;
             if (e.parentNode == this || e == this) {
