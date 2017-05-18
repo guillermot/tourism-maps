@@ -1,12 +1,10 @@
-.grid-places {
-}
+.grid-places {}
 
 .grid-places>.item {
     display: block;
     width: 280px;
     height: 80px;
     margin-bottom: 4px;
-    z-index: 200;
 }
 
 .grid-places>.item>.item-clickeable {
@@ -39,5 +37,10 @@
 
 .grid-places>.item>.item-clickeable>.image-container>img {
     width: 80px;
-    height: 80px;s
+    height: 80px;
+    z-index: 1000000;
+}
+
+.back-btn {
+    cursor: pointer;
 }

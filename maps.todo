@@ -1,3 +1,13 @@
+[ ] Store guides in DB
+[ ] Transform content div to aside object similar to google maps.
+[ ] Places descriptions
+[ ] Load 5 differents kind of tours for Manhattan
+[ ] Contriburs. Reputation. Scoring
+[ ] Handle differents types of object in the map.
+        [X] Markers
+        [ ] Areas
+        [ ] Lines (High Line)
 
 [ ] Point to the map on place mouseover. The way google maps doest it on photo mouseover.
-[ ] Contriburs. Reputation. Scoring
+[ ] Social: Guides comments and likes.
+
