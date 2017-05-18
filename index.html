@@ -2,13 +2,17 @@
 <html>
 
 <head>
+    <script src="https://polygit.org/components/webcomponentsjs/webcomponents-loader.js"></script>
+
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/places-card.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+
+    <link rel="import" href="assets/web-components/guide-card.html" />
 </head>
 
 <body>
@@ -30,11 +34,13 @@
     </script>
     <div id="content">
         <div id="grid-places" class="grid-places">
+            <guide-card>
+            </guide-card>
         </div>
     </div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbRO19iUb2TFvyzV6bK_Smtsn0EBpPvQQ&callback=initMap"></script>
-    <script src="assets/js/index.js"></script>
-    <script src="assets/js/places.js"></script>
+    <!--<script src="assets/js/index.js"></script>
+    <script src="assets/js/places.js"></script>-->
 
 </body>
 
